@@ -3,18 +3,21 @@ html, body{
   margin: 0;
   padding: 0;
 
-  background-color: #0359C4;
+  background-color: #FF12DD;
 font-family: 'Oswald', sans-serif;
 color: #FFFFFF
 }
 a{
+-webkit-transition: all 0.5s;
   text-decoration: none;
   color: #0359C4;
   font-size: 27px;
 }
 a:hover{
+-webkit-transition: all 1s;
   text-decoration: none;
   color: black;
+  font-size: 40px;
 }
  ul {
    margin: 0;
@@ -41,4 +44,8 @@ s
 
 .container{
   text-align: center;
+}
+.active{
+ color: #000000
+
 }
