@@ -29,7 +29,7 @@ margin: 0;
 padding: 0;
 background-color: white;
 }
-s
+
 .nav-link{
   display: inline-block;
   padding: 25px;
@@ -48,4 +48,12 @@ s
 .active{
  color: #000000
 
+}
+
+table{
+  width: 60%;
+padding: 0px 20% 0px 20%;
+padding-left: 30%;
+padding-right: 30%;
+color: black
 }
