@@ -23,7 +23,7 @@ for(var i in favSongs) {
   for (var j in favSongs[i]) {
     var td1 = document.createElement("td");
     td1.innerHTML = favSongs[i][j];
-  } else {
+  } 'else'; {
     td1.innertext = favSongs[i][j];
     tr.appendChild(td1);
   }
